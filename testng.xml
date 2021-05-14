@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.zoopla.util.ExtentReporterNG" />
+	</listeners>
+
+  <test  name="Test">
+    <classes>
+    <class name="com.zoopla.tests.Matched"/> 
+         <class name="com.zoopla.tests.Duplicate"/>
+<!--      <class name="com.zoopla.tests.SearchProperty"/>   -->
+        <class name="com.zoopla.tests.Natch"/>
+        <class name="com.zoopla.tests.Catch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
